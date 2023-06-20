@@ -3,7 +3,7 @@ package main
 import (
 	"blockwatch.cc/tzgo/tezos"
 	"fmt"
-	"github.com/jeanschmitt/tzgen/examples/contracts"
+	"github.com/mike70193/tzgen/examples/contracts"
 )
 
 // Storage example shows how to query the storage of a contract.

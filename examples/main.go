@@ -13,15 +13,15 @@ import (
 
 // Generate bindings used in examples
 
-//go:generate go run github.com/jeanschmitt/tzgen --name Hello -o ./contracts/Hello.go -a KT1FsGDhS7PUWn1Yff8r5nXE4MArZwD2XhEi --pkg contracts -e https://ghostnet.smartpy.io
-//go:generate go run github.com/jeanschmitt/tzgen --name Payable -o ./contracts/Payable.go -a KT1FPA7vN4cBk24df7VxUu9DstRcc7am3qnf --pkg contracts -e https://ghostnet.smartpy.io
-//go:generate go run github.com/jeanschmitt/tzgen --name FA2NFT -o ./contracts/FA2NFT.go -a KT1UvFD9hwgbLKbmTzUPmVRVsHG29ciQrcwE --pkg contracts -e https://ghostnet.smartpy.io
+//go:generate go run github.com/mike70193/tzgen --name Hello -o ./contracts/Hello.go -a KT1FsGDhS7PUWn1Yff8r5nXE4MArZwD2XhEi --pkg contracts -e https://ghostnet.smartpy.io
+//go:generate go run github.com/mike70193/tzgen --name Payable -o ./contracts/Payable.go -a KT1FPA7vN4cBk24df7VxUu9DstRcc7am3qnf --pkg contracts -e https://ghostnet.smartpy.io
+//go:generate go run github.com/mike70193/tzgen --name FA2NFT -o ./contracts/FA2NFT.go -a KT1UvFD9hwgbLKbmTzUPmVRVsHG29ciQrcwE --pkg contracts -e https://ghostnet.smartpy.io
 
 func main() {
 	flag.Parse()
 
 	if len(flag.Args()) == 0 {
-		fmt.Println("Usage: go run github.com/jeanschmitt/tzgen/examples [examples]")
+		fmt.Println("Usage: go run github.com/mike70193/tzgen/examples [examples]")
 		fmt.Println("Available examples:")
 		for _, ex := range exampleList() {
 			fmt.Printf("\t%s\n", ex)

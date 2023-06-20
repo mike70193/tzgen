@@ -16,7 +16,7 @@ import (
 	"blockwatch.cc/tzgo/tezos"
 	"github.com/pkg/errors"
 
-	"github.com/jeanschmitt/tzgen/pkg/bind"
+	"github.com/mike70193/tzgen/pkg/bind"
 )
 
 // FA2NFT is a generated binding to a Tezos smart contract.

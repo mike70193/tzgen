@@ -2,7 +2,7 @@ package parse
 
 import (
 	"blockwatch.cc/tzgo/micheline"
-	"github.com/jeanschmitt/tzgen/pkg/ast/types"
+	"github.com/mike70193/tzgen/pkg/ast/types"
 	"github.com/pkg/errors"
 )
 

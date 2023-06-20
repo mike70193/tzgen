@@ -4,7 +4,7 @@ import (
 	"blockwatch.cc/tzgo/rpc"
 	"blockwatch.cc/tzgo/signer"
 	"fmt"
-	"github.com/jeanschmitt/tzgen/examples/contracts"
+	"github.com/mike70193/tzgen/examples/contracts"
 )
 
 // Deploy example shows how to deploy a contract from a binding generated with tzgen.

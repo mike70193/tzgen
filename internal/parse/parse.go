@@ -4,8 +4,8 @@ import (
 	"blockwatch.cc/tzgo/micheline"
 	"encoding/json"
 	"fmt"
-	"github.com/jeanschmitt/tzgen/pkg/ast"
-	"github.com/jeanschmitt/tzgen/pkg/ast/types"
+	"github.com/mike70193/tzgen/pkg/ast"
+	"github.com/mike70193/tzgen/pkg/ast/types"
 	"github.com/pkg/errors"
 	"strconv"
 )

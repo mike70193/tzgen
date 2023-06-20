@@ -1,6 +1,6 @@
 package ast
 
-import "github.com/jeanschmitt/tzgen/pkg/ast/types"
+import "github.com/mike70193/tzgen/pkg/ast/types"
 
 type Contract struct {
 	// Name of the Contract.
