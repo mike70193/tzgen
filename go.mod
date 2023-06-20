@@ -1,4 +1,4 @@
-module github.com/jeanschmitt/tzgen
+module github.com/mike70193/tzgen
 
 go 1.19
 
