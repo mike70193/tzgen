@@ -5,7 +5,7 @@ Go binding to Tezos smart contracts, using code generation.
 ## Installation
 
 ```bash
-go install github.com/jeanschmitt/tzgen@latest
+go install github.com/mike07193/tzgen@latest
 ```
 
 ## Usage
