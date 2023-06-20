@@ -3,8 +3,8 @@ package cmd
 import (
 	"bytes"
 	"github.com/iancoleman/strcase"
-	"github.com/jeanschmitt/tzgen/internal/generate"
-	"github.com/jeanschmitt/tzgen/internal/parse"
+	"github.com/mike70193/tzgen/internal/generate"
+	"github.com/mike70193/tzgen/internal/parse"
 	"github.com/pkg/errors"
 	"gopkg.in/yaml.v3"
 	"io"
